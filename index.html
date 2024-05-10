@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Cesar Ahumada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Cesar Ahumada</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+   
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Foto.jpeg" alt="">
+
+            </div>
+            <h1>CESAR AHUMADA </h1>
+            <h2>Ingeniero de Sistemas </h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100070769799084"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/cesar-ahumada-987875232/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=" https://github.com/cesarahumada11"><i class="fa-brands fa-github"></i></a> 
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Cesar Ahumada.</span> Estudiante de ingeniería de sistemas en
+                la Universidad Simón Bolívar a la espera  del diploma de grado, con una formación teórico-práctica. Capaz de diseñar y gestionar soluciones técnicamente viables mediante el uso
+                de la tecnología, teniendo
+                conocimiento en WordPress, HTML, CSS,
+                y JavaScript. Soy una persona
+                proactiva, dedicada, responsable,
+                amable y organizada, con excelente
+                actitud, comunicación, aprendizaje
+                rápido y capacidad de trabajo en
+                equipo.</p>
+
+            <div class="fila">
+             
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            01-08-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3113906680
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            cesar.ahumada1@icloud.com
+                        </li>
+                        <li>
+                            <strong>GitHub</strong>
+                            https://github.com/cesarahumada11
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Carrera 1B #2 97 Puerto Colombia                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE/AUXILIAR CONTABLE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                     
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                    
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="C:\Users\Cesar Ahumada\Documents\Cesar Ahumada DOCUMENTOS\HojaDeVidaCesarAhumadaESP.pdf" download style="color: inherit; text-decoration: none;">Descargar CV <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop/Ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress/Wix</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Excel/Herramientas ofimaticas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Universidad Simón Bolivar</span>
+                        <span class="fecha">2018 - 2023</span>
+                        <p>Durante mi tiempo en la Universidad Simón Bolívar, me enfoqué en varias áreas dentro de la ingeniería de sistemas. Además de adquirir una sólida formación en aspectos técnicos, como desarrollo de software, diseño web, redes y bases de datos, aunque finalmente opté por especializarme en el lado de la gestión de proyectos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diplomado Gestión de Proyectos</h4>
+                        <span class="casa">Universidad Simón Bolivar</span>
+                        <span class="fecha">2023</span>
+                        <p>A lo largo de mi carrera encontré un mayor interés en la planificación, coordinación y ejecución de proyectos. La gestión de proyectos me permite aprovechar mis habilidades organizativas, de comunicación y liderazgo para llevar a cabo iniciativas exitosas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador de JavaScript (Node JS)</h4>
+                        <span class="casa">Capacitate para el empleo</span>
+                        <span class="fecha">2022</span>
+                        <p>JavaScript ofrece un potencial considerable para construir aplicaciones rápidas y eficientes. Además, la popularidad y la demanda creciente de desarrolladores con experiencia en Node.js me motivaron a adquirir habilidades en esta área </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Freelancer</h4>
+                        <span class="fecha">2023 - Actualidad</span>
+                        <p>He tenido la oportunidad de crear sitios web para algunas
+                            empresas utilizando WordPress, HTML y CSS, siendo
+                            responsable de diseñar y desarrollar sitios web
+                            personalizados para estas empresas. Estos proyectos me
+                            han permitido desarrollar habilidades en diseño web,
+                            programación, así como un profundo conocimiento de
+                            WordPress y sus capacidades. También me ha permitido
+                            mejorar mi capacidad para comunicarme con los clientes y
+                            gestionar proyectos de forma eficaz</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Practicas Profesionales</h4>
+                        <span class="casa">Alcaldía De Puerto Colombia</span>
+                        <span class="fecha">2023</span>
+                        <p>Durante mis prácticas profesionales en la Alcaldía de
+                            Puerto Colombia, brindé soporte en herramientas
+                            ofimáticas y equipos tecnológicos. Esto me brindó la
+                            oportunidad de mejorar mis habilidades en el manejo de
+                            estas herramientas. Además, participé en el desarrollo de
+                            la intranet utilizando WordPress, lo que me permitió
+                            fortalecer mis conocimientos en programación y diseño
+                            web.
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor</h4>
+                        <span class="casa">Centro Democrático</span>
+                        <span class="fecha">2023</span>
+                        <p>Apoyo operativo para facilitar la gestión y desarrollo del
+                            proceso de aval 2023 atendiendo las solicitudes de los
+                            postulantes de cada departamento, Estaba encargado de organizar información en bases de datos Excel, resolver
+                            problemas y atender llamadas entrantes y salientes</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://hertous.com" target="_blank" rel="noopener noreferrer">
+                        <img src="img/hertous.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Página Web</h3>
+                            <p>Hertous</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://proyeinver0410.com/pruebavista/" rel="noopener noreferrer">
+                        <img src="img/proyeinver.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Página Web</h3>
+                            <p>proyeinver0410</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/cesarahumada11/Memorizalo" target="_blank" rel="noopener noreferrer">
+                        <img src="img/memorizalo.jpg" alt="">
+                        <div class="overlay">
+                            <h3>App</h3>
+                            <p>Juego Memorizalo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/cesarahumada11/App-Climax" target="_blank" rel="noopener noreferrer">
+                        <img src="img/pronosticocl.jpg" alt="">
+                        <div class="overlay">
+                            <h3>App</h3>
+                            <p>Pronostico Clima</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/cesarahumada11/App-Finanzas" target="_blank" rel="noopener noreferrer">
+                        <img src="img/presupuesto.jpg" alt="">
+                        <div class="overlay">
+                            <h3>App</h3>
+                            <p>Finanzas</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="C:\Users\Cesar Ahumada\Documents\PROYECTOS HTML\Portafolio C Ahumada\img\ubi_Mesa de trabajo 1.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Puerto Colombia Cra 1B 2 97
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 3113906680
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cesar.ahumada1@icloud.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
